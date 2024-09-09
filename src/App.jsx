@@ -16,7 +16,7 @@ function App() {
     setShortUrl('');
     setCopied(false);
 
-    const apiKey = process.env.REACT_APP_TINYURL_API_KEY; // Fetch API key from environment variables
+    const apiKey = 'q4wscWU9SpODEMMvDHgK9EuPfOjI4Ol8qosx4e9Z77OUL9PG5ZPG02BaAhTA'; // Replace with your TinyURL API key
     const apiUrl = `https://api.tinyurl.com/create?api_token=${apiKey}`;
 
     try {
@@ -53,7 +53,7 @@ function App() {
             <a href="https://github.com/alijsx/Shorten-My-URL" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-500">
               <FaGithub size={32} />
             </a>
-         
+        
           </div>
         </div>
 
